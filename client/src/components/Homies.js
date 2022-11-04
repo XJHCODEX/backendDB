@@ -8,13 +8,11 @@ class Homies extends React.Component{
         }
     }
 
-    componentDidMount(){
+    //componentDidMount(){
         // this gets called when component finishes rendering
-        console.log("in COM");
-        fetch('/api/homies')
-        .then(response => response.json())
-        .then(homies => console.log(homies));
-    }
+    //    console.log("in COM");
+    //    fetch('/api/homies').then(response => response.json()).then(homies => console.log(homies));
+   // }
 
     render(){
         return(
